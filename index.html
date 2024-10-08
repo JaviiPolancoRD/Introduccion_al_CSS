@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a CSS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#">Diseño Web</a></li>
+                    <li><a href="#">Desarrollo</a></li>
+                    <li><a href="#">Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Productos</a>
+                <ul class="submenu">
+                    <li><a href="#">Producto A</a></li>
+                    <li><a href="#">Producto B</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <center>
+    <h1>ACTIVIDAD 1 CSS (Valor 10 puntos).</h1>
+    </center>
+    <section class="teoria">
+        <center>
+        <h4>1. ¿Qué es CSS?</h4>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para describir la presentación visual de un documento HTML o XML. Permite definir cómo se ven los elementos en una página web.</p>
+
+        <h4>2. ¿Cuál es la función principal de CSS?</h4>
+        <p>La función principal de CSS es separar el contenido estructural (HTML) de la presentación visual (estilos). Esto permite tener un mayor control sobre el diseño y la apariencia de una página web.</p>
+
+        <h4>3. ¿Cómo se puede incluir CSS en un documento HTML?</h4>
+        <p>Hay varias formas de incluir CSS en un documento HTML:
+
+            Usando etiquetas style dentro del head del documento HTML.
+            Enlazando un archivo CSS externo usando la etiqueta link dentro del head del documento HTML.</p>
+
+        <h4>4. ¿Qué son los selectores en CSS?</h4>
+        <p>Los selectores son patrones que se utilizan para seleccionar los elementos HTML a los que se les aplicarán estilos. Pueden ser selectores de tipo, de clase, de ID, de atributo, entre otros.</p>
+
+        <h4>5. ¿Qué son las propiedades y valores en CSS?</h4>
+        <p>Las propiedades son atributos que definen el aspecto de los elementos seleccionados, como el color, tamaño, márgenes, entre otros. Los valores son los ajustes específicos que se aplican a esas propiedades, por ejemplo, color: blue;.</p>
+
+        <h4>6. ¿Cómo se aplica el modelo de caja en CSS?</h4>
+        <p>El modelo de caja en CSS describe cómo se calculan el tamaño total de un elemento y cómo se distribuyen sus contenidos y márgenes. Incluye el contenido, el padding, el borde y el margen de un elemento.</p>
+
+        <h4>7. ¿Qué es el "cascading" en CSS?</h4>
+        <p> El "cascading" se refiere a la manera en que CSS resuelve los conflictos cuando múltiples estilos se aplican a un mismo elemento. Utiliza reglas de precedencia y especificidad para determinar cuál estilo prevalece.</p>
+
+        <h4>8. ¿Qué son las media queries?</h4>
+        <p> Las media queries son reglas de CSS que permiten aplicar estilos basados en las características del dispositivo donde se está visualizando la página, como el ancho de la pantalla, la resolución, orientación, etc. Se utilizan principalmente para crear diseños responsivos.</p>
+
+        <h4>9. ¿Cuáles son algunos estilos comunes que se pueden aplicar?</h4>
+        <p>Algunos estilos comunes incluyen ajustes de tipografía (como tamaño y tipo de fuente), colores de fondo y texto, márgenes y paddings para espaciado, y estilos de borde y sombra para dar profundidad visual a los elementos.</p>
+
+        <h4>10. ¿Cómo se puede usar CSS para crear un diseño responsivo?</h4>
+        <p> Para crear un diseño responsivo con CSS, se utilizan principalmente media queries para ajustar el diseño y los estilos según el tamaño y características del dispositivo. Esto puede incluir la reorganización de elementos, cambios en tamaños de fuente y ajustes en márgenes y paddings para mejorar la experiencia de usuario en distintos dispositivos.</p>
+
+        </center>
+    </section>
+    <section class="practica1">
+        <header>
+            <h1>Mi Página de Presentación</h1>
+        </header>
+        <main>
+            <section class="intro">
+                <p>Bienvenido a mi página personal. Aquí encontrarás información sobre mí y mis intereses.</p>
+                <img src="Bee.jpg" alt="Mi Foto">
+                <a href="https://michaelbaystransformers.fandom.com/wiki/Bumblebee"><button class="leer-mas">Leer más</button></a>
+            </section>
+        </main>
+    </section>
+    <section class="practica2"></section>
+    <center>
+      <div class="tarjeta">
+        <img class="img" src="Bumblebe.jpeg" alt="Bumblebe">
+        <h3 class="BumbleH">Bumblebe</h3>
+        <button class="Leer-Mas">Leer Mas</button>
+      </div>
+
+      <div class="tarjeta">
+        <img class="img" src="Goku.jpeg" alt="Goku">
+        <h3 class="GokuH">Goku</h3>
+        <button class="Leer-Mas">Leer Mas</button>
+      </div>
+
+      <div class="tarjeta">
+        <img class="img" src="LDN.jpeg" alt="LDN">
+        <h3 class="LDNS">LDN</h3>
+        <button class="Leer-Mas">Leer Mas</button>
+      </div>
+    </center>
+    <script src="scripts.js"></script>
+</body>
+</html>
